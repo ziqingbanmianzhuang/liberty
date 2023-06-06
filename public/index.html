@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <!-- 针对IE浏览器以最高级别渲染页面 -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- 开启移动端理想视口 -->
+  <meta name="viewport" content="width=device-width,initial-scale=1.0 maximum-scale=1 user-scalable=no">
+  <!-- <link rel="icon" href="./favicon.ico"> -->
+  <!-- 代表public里面的文件路径 -->
+
+  <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+
+
+  <!-- <link rel="stylesheet" href="<%= BASE_URL %>bootstrap.css"> -->
+  <title>
+    <%= htmlWebpackPlugin.options.title %>
+  </title>
+  <!-- <script src="./js/vue.runtime.js"></script> -->
+  <!-- <script src="../src/main.js"></script> -->
+  <style>
+    html {
+      scroll-behavior: smooth;
+
+    }
+  </style>
+</head>
+
+<body>
+  <noscript>
+    <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled.
+        Please enable it to continue.</strong>
+  </noscript>
+  <div id="app"></div>
+</body>
+
+</html>

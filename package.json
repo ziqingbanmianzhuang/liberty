@@ -1,0 +1,58 @@
+{
+  "name": "vue_text",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "axios": "^0.25.0",
+    "bootstrap": "^3.4.1",
+    "core-js": "^3.6.5",
+    "echarts": "^4.9.0",
+    "element-ui": "^2.15.6",
+    "jquery": "^3.6.0",
+    "less-loader": "^6.0.0",
+    "nanoid": "^3.2.0",
+    "pubsub-js": "^1.9.4",
+    "swiper": "^8.3.1",
+    "vanilla-tilt": "^1.7.2",
+    "vue": "^2.6.11",
+    "vue-axios": "^3.4.1",
+    "vue-echarts": "^6.0.2",
+    "vue-router": "^3.1.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "stylus": "^0.57.0",
+    "stylus-loader": "^3.0.2",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

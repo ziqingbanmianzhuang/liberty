@@ -1,0 +1,127 @@
+
+.countDown {
+    display: flex;
+    width: 18rem;
+    height: 2rem;
+    justify-content: space-around;
+    background-color: transparent;
+    color: aliceblue;
+  }
+  
+  .day {
+    display: flex;
+    height: 2rem;
+    width: 4.2rem;
+    line-height: 2rem;
+    background-color: rgba(0, 0, 0, 0.747);
+    border-radius: 0.3rem;
+    text-align: center;
+  }
+  
+  .hour {
+    display: flex;
+    height: 2rem;
+    width: 4rem;
+    line-height: 2rem;
+    background-color: rgba(0, 0, 0, 0.747);
+    text-align: center;
+    border-radius: 0.3rem;
+  }
+  
+  .min {
+    display: flex;
+    height: 2rem;
+    width: 4rem;
+    line-height: 2rem;
+    background-color: rgba(0, 0, 0, 0.747);
+    border-radius: 0.3rem;
+    text-align: center;
+  }
+  
+  .sec {
+    display: flex;
+    height: 2rem;
+    width: 4rem;
+    line-height: 2rem;
+    background-color: rgba(0, 0, 0, 0.747);
+    border-radius: 0.3rem;
+    text-align: center;
+  }
+  
+  .countDown span {
+    flex: 1;
+    height: 2rem;
+    width: 2.7rem;
+    border-radius: 0.3rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: default;
+  }
+  
+  .countDown span:nth-child(1) {
+    margin-right: 0.1rem;
+    margin-left: 0.05rem;
+    box-sizing: border-box;
+  }
+  
+  .countDown span:nth-child(2) {
+    margin-right: 0.05rem;
+  }
+  
+  .countDowntext {
+    display: flex;
+    text-align: center;
+    font-weight: 700;
+    font-size: 0.1rem;
+    width: 18rem;
+    height: 1rem;
+    justify-content: space-around;
+    background-color: transparent;
+    cursor: default;
+  }
+  
+  .days {
+    flex: 1;
+    width: 4rem;
+  }
+  
+  .hours {
+    width: 4rem;
+    flex: 1;
+  }
+  
+  .mins {
+    width: 4rem;
+    flex: 1;
+  }
+  
+  .secs {
+    width: 4rem;
+    flex: 1;
+  }
+  /* <div class="left-area">
+  <h1>倒计时</h1>
+  <div class="countDown">
+    <div class="day">
+      <span>0</span>
+      <span>0</span>
+    </div>
+    <div class="hour">
+      <span>0</span>
+      <span>0</span>
+    </div>
+    <div class="min">
+      <span>0</span>
+      <span>0</span>
+    </div>
+    <div class="sec">
+      <span>0</span>
+      <span>0</span>
+    </div>
+  </div>
+  <div class="countDowntext">
+    <div class="days">Days</div>
+    <div class="hours">Hours</div>
+    <div class="mins">Minutes</div>
+    <div class="secs">Seconds</div>
+  </div>
+</div> */

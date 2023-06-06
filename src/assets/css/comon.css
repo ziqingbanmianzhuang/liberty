@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+}
+
+
+div,
+dl,
+dt,
+dd,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+img,
+ol,
+ul,
+li,
+table,
+th,
+td,
+p,
+span,
+a {
+    border: 0;
+}
+
+select {
+    border-width: 1px;
+    border-style: solid;
+    padding-top: 2px;
+
+}
+
+
+img {
+    border: none;
+    vertical-align: middle;
+}
+
+input {
+    vertical-align: middle;
+    border: 0;
+}
+
+body {
+    font-family: Tahoma Arial Helvetica "宋体";
+    background-color: #fff;
+    color: #000;
+}
+
+html {
+    overflow-y: scroll;
+}
+
+em,
+i {
+    font-style: normal;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+button {
+    cursor: pointer;
+    /* border: none; */
+    background-color: transparent;
+
+}
+
+.clear {
+    clear: both;
+    height: 0;
+    visibility: hidden;
+    line-height: 0;
+}
+
+
+
+
+
+a {
+    text-decoration: none;
+
+}
+
+
+
+
+
+
+button,
+input {
+    font-family: Mcrosoft YaHei, Heiti SC, tahoma, arial, Hiragino San GB, "\5b8b\4f53";
+
+    outline: none;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    background-color: #fff;
+    font-family: Mcrosoft Yahei, Heiti SC, tahoma, arial, Hiragino San GB, "\5b8b\4f53";
+
+}
+
+.hide,
+.none {
+    display: none;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: ".";
+    height: 0;
+}
+
+.clearfix {
+    *zoom: 1;
+}
